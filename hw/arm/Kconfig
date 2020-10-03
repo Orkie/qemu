@@ -256,6 +256,9 @@ config VERSATILE
     select REALVIEW
     select USB_OHCI
 
+config GP2X
+    bool
+
 config VEXPRESS
     bool
     select A9MPCORE
